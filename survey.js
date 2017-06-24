@@ -60,6 +60,7 @@ $(document).ready(function() {
           var linkText = document.createTextNode(array1[i]);
           link.appendChild(linkText);
           link.href = hrefArray1[i];
+          link.target = '_blank';
           item.appendChild(link);
           list.appendChild(item);
         }
@@ -74,6 +75,7 @@ $(document).ready(function() {
           var linkText = document.createTextNode(array2[i]);
           link.appendChild(linkText);
           link.href = hrefArray2[i];
+          link.target = '_blank';
           item.appendChild(link);
           list.appendChild(item);
         }
@@ -88,6 +90,7 @@ $(document).ready(function() {
           var linkText = document.createTextNode(array3[i]);
           link.appendChild(linkText);
           link.href = hrefArray3[i];
+          link.target = '_blank';
           item.appendChild(link);
           list.appendChild(item);
         }
@@ -102,6 +105,7 @@ $(document).ready(function() {
           var linkText = document.createTextNode(array4[i]);
           link.appendChild(linkText);
           link.href = hrefArray4[i];
+          link.target = '_blank';
           item.appendChild(link);
           list.appendChild(item);
         }
