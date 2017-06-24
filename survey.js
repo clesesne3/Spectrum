@@ -2,14 +2,6 @@ $(document).ready(function() {
   
   $('#results').click(function() {
     
-    var radioInput = document.getElementsByTagName('input');
-    var inputValue;
-    for (var i = 0; i < radioInput.length; i++) {
-      if (radioInput[i].checked) {
-        inputValue = radioInput[i].value;  
-      }
-    }
-    
     /* initialize variables to store scores based on user's selection of radio button answers */
     var scoreChoice1 = 0;
     var scoreChoice2 = 0;
