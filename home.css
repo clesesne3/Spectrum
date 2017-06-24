@@ -1,5 +1,6 @@
 body {
-  background-image: url('https://www.wired.com/wp-content/uploads/images_blogs/wiredenterprise/2012/08/facebook-prism.jpg');
+  /*background-image: url('https://www.wired.com/wp-content/uploads/images_blogs/wiredenterprise/2012/08/facebook-prism.jpg');*/
+  background-image: url('http://designchair.co.uk/wp-content/uploads/2011/05/spectrum.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -46,7 +47,7 @@ section .row {
   margin-bottom: 0;
   padding: 80px;
   font-weight: bold;
-  color: #FFF;
+  color: black;
 }
 
 #interest {
@@ -54,12 +55,16 @@ section .row {
   position: relative;
   top: 80px;
   font-weight: bold;
-  color: #FFF;
+  color: black;
 }
 
 button {
   position: relative;
   top: 90px;
+}
+
+.btn {
+  color: black;
 }
 
 #footing {
