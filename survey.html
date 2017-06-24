@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SPECTRUM: Survey</title>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+  <script src="survey.js" type="text/javascript"></script>
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+  
+  <link href="survey.css" type="text/css" rel="stylesheet"/>
+  
+  <link href="//fonts.googleapis.com/css?family=Roboto|Cinzel" type="text/css" rel="stylesheet"/>
+</head>
+  
+<body>
+  <header id="heading">
+    <div class="row">
+      <h1 class="col-sm-4">SPECTRUM</h1>
+      <nav class="col-sm-8">
+        <a href="index.html">Home</a>
+        <a href="initiatives.html">Initiatives</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  
+  <form id="Questions">
+    <div class="Q-Field">1. Which field are you <u>most</u> interested in supporting?</div><br>
+    <div class="field-response">
+      <label><input type="radio" name="Question_1a" value="ans1" id="Question_1a">Science</label>
+    </div>
+  
+    <div class="field-response">
+      <label><input type="radio" name="Question_1b" value="ans2">Technology</label>
+    </div>
+  
+    <div class="field-response">
+      <label><input type="radio" name="Question_1c" value="ans3">Engineering</label>
+    </div>
+
+    <div class="field-response">
+      <label><input type="radio" name="Question_1d" value="ans4">Mathematics</label>
+    </div>
+    <br>
+  
+    <div class="Q-Education">2. Which of the following best describe your experiences in support of STEM education?</div><br>
+    <div class="education-response">
+      <label><input type="radio" name="Question_2a" value="ans1">Taught and/or tutored students in one or more of the physical sciences</label>
+    </div>
+
+    <div class="education-response">
+      <label><input type="radio" name="Question_2b" value="ans2">Helped others: learn a programming language, build a website/app, or complete a 'hack-a-thon'</label>
+    </div>
+    
+    <div class="education-response">
+      <label><input type="radio" name="Question_2c" value="ans3">Led or assisted with a student engineering design competition</label>
+    </div>
+    
+    <div class="education-response">
+      <label><input type="radio" name="Question_2d" value="ans4">Supported a class data analysis project or helped coach a student math team</label>
+    </div>
+    <br>
+  
+    <div class="Q-Community">3. Which of these conferences would you be <u>most</u> likely to attend?</div><br>
+    <div class="community-response">
+      <label><input type="radio" name="Question_3a" value="ans1">American Physical Society (APS)</label>
+    </div>
+  
+    <div class="community-response">
+      <label><input type="radio" name="Question_3b" value="ans2">Apple World Wide Developers Conference (WWDC)</label>
+    </div>
+    
+    <div class="community-response">
+      <label><input type="radio" name="Question_3c" value="ans3">American Institute of Aeronautics and Astronautics (AIAA)</label>
+    </div>
+    
+    <div class="community-response">
+      <label><input type="radio" name="Question_3d" value="ans4">American Mathematical Society (AMS) Joint Mathematics Meetings</label>
+    </div>
+    <br>
+    
+    <div class="Q-Financial">4. For which of the following would you be most likely to provide financial support or spread awareness?</div><br>
+    <div class="financial-response">
+      <label><input type="radio" name="Question_4a" value="ans1">American Association for the Advancement of Science (AAAS)</label>
+    </div>
+  
+    <div class="financial-response">
+      <label><input type="radio" name="Question_4b" value="ans2">Girls Who Code</label>
+    </div>
+    
+    <div class="financial-response">
+      <label><input type="radio" name="Question_4c" value="ans3">National Society of Black Engineers (NSBE)</label>
+    </div>
+    
+    <div class="financial-response">
+      <label><input type="radio" name="Question_4d" value="ans4">Khan Academy</label>
+    </div>
+    <br>
+  
+    <div class="Q-Profession">5. Which of the following professions seems the most interesting or appealing to you?</div><br>
+    <div class="profession-response">
+      <label><input type="radio" name="Question_5a" value="ans1">Physicist/Chemist/Biologist</label>
+    </div>
+  
+    <div class="profession-response">
+      <label><input type="radio" name="Question_5b" value="ans2">Software Engineer/Developer</label>
+    </div>
+    
+    <div class="profession-response">
+      <label><input type="radio" name="Question_5c" value="ans3">Aerospace/Mechanical/Civil Engineer</label>
+    </div>
+    
+    <div class="profession-response">
+      <label><input type="radio" name="Question_5d" value="ans4">Quantitative/Data Analyst</label>
+    </div>
+    <br>
+  
+    <button type="submit" id="results">Show Relevant Initiatives in Seattle!</button>
+    <br>
+    
+    <div class="row">
+      <div class="col-sm-3 text-center">
+      </div>
+      <div class="col-sm-6">
+        <div id="answerDisplay"></div>
+      </div>
+      <div class="col-sm-3 text-center">
+      </div>
+    </div>
+  </form>
+   
+  <footer id="footing">
+    <p class="text-center">&copy; Chris Lesesne 2017</p>
+  </footer>
+  
+</body>  
+</html>

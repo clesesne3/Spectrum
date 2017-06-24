@@ -1,0 +1,135 @@
+body {
+  background-image: url('https://www.wired.com/wp-content/uploads/images_blogs/wiredenterprise/2012/08/facebook-prism.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding: 5px;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-family: Cinzel;
+  position: fixed;
+  z-index: 100;
+  border-bottom: 1px solid #FFF;
+  background-color: Lavender;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header .row {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  color: black;
+  margin-left: 15px;
+}
+
+.Q-Field {
+  position: relative;
+  top: 100px;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.field-response {
+  position: relative;
+  top: 100px;
+  color: #FFF;
+}
+
+.Q-Education {
+  position: relative;
+  top: 100px;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.education-response {
+  position: relative;
+  top: 100px;
+  color: #FFF;
+}
+
+.Q-Community {
+  position: relative;
+  top: 100px;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.community-response {
+  position: relative;
+  top: 100px;
+  color: #FFF;
+}
+
+.Q-Financial {
+  position: relative;
+  top: 100px;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.financial-response {
+  position: relative;
+  top: 100px;
+  color: #FFF;
+}
+
+.Q-Profession {
+  position: relative;
+  top: 100px;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.profession-response {
+  position: relative;
+  top: 100px;
+  color: #FFF;
+}
+
+#results {
+  position: relative;
+  top: 120px;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#answerDisplay {
+  margin: 0 auto;
+  position: relative;
+  top: 120px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+u, li, a {
+  color: #FFF;
+}
+
+footer {
+  position: relative;
+  top: 120px;
+  padding: 50px 0 50px 0;
+  background-color: Lavender;
+  margin: 0;
+}
+
+footer p {
+  position: relative;
+  top: 40px;
+  padding: 0;
+  margin: 0;
+}
