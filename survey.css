@@ -1,5 +1,6 @@
 body {
-  background-image: url('https://www.wired.com/wp-content/uploads/images_blogs/wiredenterprise/2012/08/facebook-prism.jpg');
+  /*background-image: url('https://www.wired.com/wp-content/uploads/images_blogs/wiredenterprise/2012/08/facebook-prism.jpg');*/
+  background-image: url('http://designchair.co.uk/wp-content/uploads/2011/05/spectrum.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,66 +38,66 @@ nav a {
 .Q-Field {
   position: relative;
   top: 100px;
-  color: #FFF;
+  color: black;
   font-weight: bold;
 }
 
 .field-response {
   position: relative;
   top: 100px;
-  color: #FFF;
+  color: black;
 }
 
 .Q-Education {
   position: relative;
   top: 100px;
-  color: #FFF;
+  color: black;
   font-weight: bold;
 }
 
 .education-response {
   position: relative;
   top: 100px;
-  color: #FFF;
+  color: black;
 }
 
 .Q-Community {
   position: relative;
   top: 100px;
-  color: #FFF;
+  color: black;
   font-weight: bold;
 }
 
 .community-response {
   position: relative;
   top: 100px;
-  color: #FFF;
+  color: black;
 }
 
 .Q-Financial {
   position: relative;
   top: 100px;
-  color: #FFF;
+  color: black;
   font-weight: bold;
 }
 
 .financial-response {
   position: relative;
   top: 100px;
-  color: #FFF;
+  color: black;
 }
 
 .Q-Profession {
   position: relative;
   top: 100px;
-  color: #FFF;
+  color: black;
   font-weight: bold;
 }
 
 .profession-response {
   position: relative;
   top: 100px;
-  color: #FFF;
+  color: black;
 }
 
 #results {
@@ -116,7 +117,7 @@ nav a {
 }
 
 u, li, a {
-  color: #FFF;
+  color: black;
 }
 
 footer {
