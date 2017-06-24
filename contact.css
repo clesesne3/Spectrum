@@ -1,0 +1,68 @@
+body {
+  /*background-color: #FFF;*/
+  background-image: url('https://www.wired.com/wp-content/uploads/images_blogs/wiredenterprise/2012/08/facebook-prism.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding: 5px;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-family: Cinzel;
+  position: fixed;
+  z-index: 100;
+  border-bottom: 1px solid #FFF;
+  background-color: Lavender;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header .row {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  color: black;
+  margin-left: 15px;
+}
+
+section .row {
+  display: flex;
+  align-items: center;
+}
+
+#info {
+  position: relative;
+  top: 200px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 80px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: #FFF;
+}
+
+#footing {
+  position: relative;
+  top: 350px;
+  margin-top: 0;
+  padding: 0 0 15px 0;
+  background-color: Lavender;
+  z-index: 100;
+}
+
+footer p {
+  margin-right: 0;
+  position: relative;
+  top: 15px;
+  padding: 0;
+}
