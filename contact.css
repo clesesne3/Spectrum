@@ -1,6 +1,6 @@
 body {
-  /*background-color: #FFF;*/
-  background-image: url('https://www.wired.com/wp-content/uploads/images_blogs/wiredenterprise/2012/08/facebook-prism.jpg');
+  /*background-image: url('https://www.wired.com/wp-content/uploads/images_blogs/wiredenterprise/2012/08/facebook-prism.jpg');*/
+  background-image: url('http://designchair.co.uk/wp-content/uploads/2011/05/spectrum.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -48,7 +48,7 @@ section .row {
   padding: 80px;
   font-weight: bold;
   font-family: Roboto;
-  color: #FFF;
+  color: black;
 }
 
 #footing {
