@@ -26,7 +26,7 @@ $(document).ready(function() {
             break;
           case 'ans4':
             scoreChoice4 += 1;
-            break
+            break;
         }
       }
     }
@@ -53,6 +53,9 @@ $(document).ready(function() {
     
     /* determine relevant STEM organizations/projects for user based on input and display results with created list*/
     switch(finalScore) {
+      case 0;  
+        break;
+        
       case scoreChoice1:
         for(var i in array1) {
           var item = document.createElement('li');
