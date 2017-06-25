@@ -27,8 +27,6 @@ $(document).ready(function() {
           case 'ans4':
             scoreChoice4 += 1;
             break;
-          default:
-            break;
         }
       }
     }
