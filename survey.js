@@ -55,7 +55,7 @@ $(document).ready(function() {
     
     /* determine relevant STEM organizations/projects for user based on input and display results with created list*/
     switch(finalScore) {
-      case 0;  
+      case 0:  
         break;
         
       case scoreChoice1:
