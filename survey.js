@@ -53,7 +53,8 @@ $(document).ready(function() {
     
     /* determine relevant STEM organizations/projects for user based on input and display results with created list*/
     switch(finalScore) {
-      case 0:  
+      case 0:
+        alert("Select responses for each question!");
         break;
         
       case scoreChoice1:
@@ -69,6 +70,7 @@ $(document).ready(function() {
         }
         result.style.border = "thin solid Black";
         result.appendChild(list);
+        var saved = localStorage.getItem(result);
       	break;
         
       case scoreChoice2:
@@ -84,6 +86,7 @@ $(document).ready(function() {
         }
         result.style.border = "thin solid Black";
         result.appendChild(list);
+        var saved = localStorage.getItem(result);
         break;
         
       case scoreChoice3:
@@ -99,6 +102,7 @@ $(document).ready(function() {
         }
         result.style.border = "thin solid Black";
         result.appendChild(list);
+        var saved = localStorage.getItem(result);
         break;
         
       case scoreChoice4:
@@ -114,6 +118,7 @@ $(document).ready(function() {
         }
         result.style.border = "thin solid Black";
         result.appendChild(list);
+        var saved = localStorage.getItem(result);
         break;
     }
     return false;
