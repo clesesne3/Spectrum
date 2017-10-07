@@ -28,7 +28,7 @@ header .row {
   align-items: center;
 }
 
-nav a {
+/*nav a {
   color: black;
   margin-left: 15px;
 }
@@ -46,24 +46,41 @@ section .row {
   padding: 80px;
   font-weight: bold;
   color: black;
+}*/
+
+a {
+  width: 50%;
+  height: auto;
+  text-decoration: none;
+}
+
+a:hover, #interest:hover {
+  color: #FFF;
+  text-decoration: none;
 }
 
 #interest {
+  display: block;
   margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   position: relative;
-  top: 27em;
+  top: 28em;
+  text-align: center;
   font-weight: bold;
   color: black;
+  font-size: 20px;
 }
 
-button {
+/*button {
   position: relative;
   top: 35em;
 }
 
 .btn {
   color: black;
-}
+}*/
 
 /*#footing {
   position: relative;
